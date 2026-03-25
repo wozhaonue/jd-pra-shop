@@ -39,20 +39,33 @@ export function useInfiniteScroll({
   // 指向滚动容器元素的引用
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
 
+  // 使用 ref 缓存回调和状态，避免闭包陷阱和重复创建 observer
+  const loadingRef = useRef(loading);
+  const hasMoreRef = useRef(hasMore);
+  const onLoadMoreRef = useRef(onLoadMore);
+
+  // 每次渲染时更新最新的状态
+  useEffect(() => {
+    loadingRef.current = loading;
+    hasMoreRef.current = hasMore;
+    onLoadMoreRef.current = onLoadMore;
+  }, [loading, hasMore, onLoadMore]);
+
   /**
    * IntersectionObserver 的回调函数
    * 当触底探测元素进入视口时触发
    */
-  const handleObserver = useCallback(
-    (entries: IntersectionObserverEntry[]) => {
-      const target = entries[0];
-      // 如果目标元素可见，且还有更多数据，且当前不在加载中，则触发加载更多
-      if (target.isIntersecting && hasMore && !loading) {
-        onLoadMore();
-      }
-    },
-    [onLoadMore, hasMore, loading]
-  );
+  const handleObserver = useCallback((entries: IntersectionObserverEntry[]) => {
+    const target = entries[0];
+    // 如果目标元素可见，且还有更多数据，且当前不在加载中，则触发加载更多
+    if (
+      target.isIntersecting &&
+      hasMoreRef.current &&
+      !loadingRef.current
+    ) {
+      onLoadMoreRef.current();
+    }
+  }, []); // 依赖为空，保持引用不变
 
   // 初始化和管理 IntersectionObserver
   useEffect(() => {

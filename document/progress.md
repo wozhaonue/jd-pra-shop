@@ -31,3 +31,6 @@
   - 编写了 `useInfiniteScroll` 自定义 Hook 处理 IntersectionObserver 逻辑
   - 在 App.tsx 中增加了分页状态 (`page`)、加载状态 (`loading`) 和是否还有更多数据的衍生状态 (`hasMore`)
   - 列表底部增加了用于触发加载更多和展示状态的元素
+- [x] 步骤 4.2：修复无限滚动与筛选的边界问题
+  - 修复 `useInfiniteScroll` 中因依赖项变化导致 observer 重新创建并立即触发加载的问题（引入 `useRef` 缓存最新状态）
+  - 修复 `App.tsx` 中切换品牌时因 `useEffect` 状态竞态导致渲染出过多商品的问题（重构 `visibleProducts` 为衍生状态，移除多余的副作用）

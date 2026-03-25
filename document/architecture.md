@@ -12,11 +12,11 @@
   - `Sidebar/`: 左侧品牌导航列表组件
   - `ProductCard/`: 单个商品卡片组件
 - `hooks/`: 存放自定义 Hooks
-  - `useInfiniteScroll.ts`: 封装基于 IntersectionObserver 的无限滚动触底加载逻辑
+  - `useInfiniteScroll.ts`: 封装基于 IntersectionObserver 的无限滚动触底加载逻辑（通过 useRef 缓存闭包状态，保证 observer 稳定不重复创建）
 - `mocks/`: 存放本地模拟数据（`mockData.ts`, `headerData.ts`）
 - `types/`: 存放 TypeScript 接口定义
 - `utils/`: 存放通用工具函数（如 `cn.ts` 样式合并工具）
-- `App.tsx`: 应用根组件
+- `App.tsx`: 应用根组件（集成全量状态管理，使用衍生状态处理分页与可见商品数据，避免副作用竞态）
 - `main.tsx`: React 挂载入口
 - `index.css`: 全局样式文件（引入了 Tailwind 和自定义变量）
 

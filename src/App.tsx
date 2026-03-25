@@ -22,10 +22,10 @@ function App() {
     string | null
   >(null);
 
-  // 核心状态 2：当前应该渲染在列表中的商品数组
-  const [visibleProducts, setVisibleProducts] = useState<
-    Product[]
-  >([]);
+  // 分页相关常量
+  const PAGE_SIZE = 8;
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
 
   // 衍生状态：根据选中的品牌，计算出过滤后的全量商品数组
   const filteredProducts = useMemo(() => {
@@ -46,10 +46,10 @@ function App() {
     );
   }, [currentBrandId]);
 
-  // 分页相关常量
-  const PAGE_SIZE = 8;
-  const [page, setPage] = useState(1);
-  const [loading, setLoading] = useState(false);
+  // 衍生状态：当前应该渲染在列表中的商品数组
+  const visibleProducts = useMemo(() => {
+    return filteredProducts.slice(0, page * PAGE_SIZE);
+  }, [filteredProducts, page]);
 
   // 衍生状态：是否还有更多数据
   const hasMore =
@@ -77,21 +77,8 @@ function App() {
   // 当过滤后的数据发生变化（如切换品牌）时，重置分页并回到顶部
   useEffect(() => {
     setPage(1);
-    setVisibleProducts(
-      filteredProducts.slice(0, PAGE_SIZE),
-    );
     resetScroll();
   }, [filteredProducts, resetScroll]);
-
-  // 当页码增加时，追加数据
-  useEffect(() => {
-    if (page === 1) return;
-    const nextProducts = filteredProducts.slice(
-      0,
-      page * PAGE_SIZE,
-    );
-    setVisibleProducts(nextProducts);
-  }, [page, filteredProducts]);
 
   // 渲染商品列表
   const renderProductList = () => (
