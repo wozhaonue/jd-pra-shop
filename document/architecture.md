@@ -7,10 +7,11 @@
 ## `src/` (源代码目录)
 
 - `components/`: 存放所有 React UI 组件
+  - `Header/`: 顶部导航与活动标签组件
 - `hooks/`: 存放自定义 Hooks（如无限滚动）
-- `mocks/`: 存放本地模拟数据（`mockData.ts`）
+- `mocks/`: 存放本地模拟数据（`mockData.ts`, `headerData.ts`）
 - `types/`: 存放 TypeScript 接口定义
-- `utils/`: 存放通用工具函数
+- `utils/`: 存放通用工具函数（如 `cn.ts` 样式合并工具）
 - `App.tsx`: 应用根组件
 - `main.tsx`: React 挂载入口
 - `index.css`: 全局样式文件（引入了 Tailwind 和自定义变量）
