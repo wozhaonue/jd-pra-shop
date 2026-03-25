@@ -1,21 +1,55 @@
 /** @format */
-import { useState } from "react";
-import { mockBrands, mockProducts } from "./mocks/mockData";
+import { useState, useMemo, useEffect } from "react";
+import {
+  mockBrands,
+  mockProducts,
+  type Product,
+} from "./mocks/mockData";
 import { Header } from "./components/Header";
 import { ContentLayout } from "./components/ContentLayout";
 import { Sidebar } from "./components/Sidebar";
 import { ProductCard } from "./components/ProductCard";
 
 function App() {
-  // 临时状态：当前选中的品牌 ID
+  // 核心状态 1：当前选中的品牌 ID。null 代表全选
   const [currentBrandId, setCurrentBrandId] = useState<
     string | null
   >(null);
 
-  // 渲染商品列表 (临时直接渲染全部 mockProducts，不加过滤和分页)
+  // 核心状态 2：当前应该渲染在列表中的商品数组
+  const [visibleProducts, setVisibleProducts] = useState<
+    Product[]
+  >([]);
+
+  // 衍生状态：根据选中的品牌，计算出过滤后的全量商品数组
+  const filteredProducts = useMemo(() => {
+    if (!currentBrandId) return mockProducts;
+
+    // 从 mockBrands 找出对应的品牌名称
+    const brandName = mockBrands.find(
+      (b) => b.id === currentBrandId,
+    )?.name;
+    if (!brandName) return mockProducts;
+
+    return mockProducts.filter(
+      (p) => p.brand === brandName,
+    );
+  }, [currentBrandId]);
+
+  // 分页相关常量
+  const PAGE_SIZE = 8;
+
+  // 当过滤后的数据发生变化（如切换品牌）时，重置可见商品列表为第一页数据
+  useEffect(() => {
+    setVisibleProducts(
+      filteredProducts.slice(0, PAGE_SIZE),
+    );
+  }, [filteredProducts]);
+
+  // 渲染商品列表
   const renderProductList = () => (
     <div className="bg-white min-h-full">
-      {mockProducts.map((product) => (
+      {visibleProducts.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
     </div>
