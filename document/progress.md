@@ -34,3 +34,17 @@
 - [x] 步骤 4.2：修复无限滚动与筛选的边界问题
   - 修复 `useInfiniteScroll` 中因依赖项变化导致 observer 重新创建并立即触发加载的问题（引入 `useRef` 缓存最新状态）
   - 修复 `App.tsx` 中切换品牌时因 `useEffect` 状态竞态导致渲染出过多商品的问题（重构 `visibleProducts` 为衍生状态，移除多余的副作用）
+
+## 阶段 5：高级筛选功能
+
+- [x] 步骤 5.1：实现活动标签与品牌的双层筛选
+  - 将 Header 的 `activeTagId` 状态提升至根组件 `App.tsx`，通过 Props 传递给 `Header`
+  - 修改 `App.tsx` 中的 `filteredProducts` 衍生状态，新增通过 `featureTags` 进行标签筛选的逻辑
+  - 实现了基于活动标签（如国家补贴、百亿补贴等）和品牌（如 Apple、华为等）的组合筛选，且筛选后能够自动重置分页和滚动位置
+
+## 阶段 5：高级筛选功能
+
+- [x] 步骤 5.1：实现活动标签与品牌的双层筛选
+  - 将 Header 的 `activeTagId` 状态提升至根组件 `App.tsx`，通过 Props 传递给 `Header`
+  - 修改 `App.tsx` 中的 `filteredProducts` 衍生状态，新增通过 `featureTags` 进行标签筛选的逻辑
+  - 实现了基于活动标签（如国家补贴、百亿补贴等）和品牌（如 Apple、华为等）的组合筛选，且筛选后能够自动重置分页和滚动位置

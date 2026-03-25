@@ -1,15 +1,18 @@
 /** @format */
 
-import { useState } from "react";
 import { activityTags } from "../../mocks/headerData";
 import { cn } from "../../utils/cn";
 import { Check } from "lucide-react"; // 引入勾选图标
 
-export function Header() {
-  const [activeTagId, setActiveTagId] = useState<string>(
-    activityTags[0].id,
-  );
+interface HeaderProps {
+  activeTagId: string;
+  onTagSelect: (tagId: string) => void;
+}
 
+export function Header({
+  activeTagId,
+  onTagSelect,
+}: HeaderProps) {
   return (
     <header className="bg-white px-3 pt-3 pb-2 sticky top-0 z-50 overflow-hidden">
       {/* 左上角红色模糊渐变背景：稍微放大一点，并保持柔和过渡 */}
@@ -43,7 +46,7 @@ export function Header() {
             return (
               <button
                 key={tag.id}
-                onClick={() => setActiveTagId(tag.id)}
+                onClick={() => onTagSelect(tag.id)}
                 className={cn(
                   "relative px-4 py-1.5 rounded-full text-sm font-bold transition-colors",
                   isActive

@@ -15,6 +15,7 @@ import { ContentLayout } from "./components/ContentLayout";
 import { Sidebar } from "./components/Sidebar";
 import { ProductCard } from "./components/ProductCard";
 import { useInfiniteScroll } from "./hooks/useInfiniteScroll";
+import { activityTags } from "./mocks/headerData";
 
 function App() {
   // 核心状态 1：当前选中的品牌 ID。null 代表全选
@@ -22,29 +23,47 @@ function App() {
     string | null
   >(null);
 
+  // 核心状态 2：当前选中的活动标签 ID
+  const [activeTagId, setActiveTagId] = useState<string>(
+    activityTags[0].id,
+  );
+
   // 分页相关常量
   const PAGE_SIZE = 8;
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
 
-  // 衍生状态：根据选中的品牌，计算出过滤后的全量商品数组
+  // 衍生状态：根据选中的标签和品牌，计算出过滤后的全量商品数组
   const filteredProducts = useMemo(() => {
-    if (!currentBrandId) return mockProducts;
+    let products = mockProducts;
 
-    // 从 mockBrands 找出对应的品牌名称
-    const brandName = mockBrands.find(
-      (b) => b.id === currentBrandId,
+    // 1. 标签筛选
+    const activeTagName = activityTags.find(
+      (t) => t.id === activeTagId,
     )?.name;
-    if (!brandName) return mockProducts;
+    if (activeTagName) {
+      products = products.filter((p) =>
+        p.featureTags?.includes(activeTagName),
+      );
+    }
 
-    // 通过商品名称筛选：特殊处理 Apple 对应 iPhone 的情况，其余直接使用品牌名进行模糊匹配
-    const searchKeyword =
-      brandName === "Apple" ? "iPhone" : brandName;
+    // 2. 品牌筛选
+    if (currentBrandId) {
+      const brandName = mockBrands.find(
+        (b) => b.id === currentBrandId,
+      )?.name;
+      if (brandName) {
+        // 通过商品名称筛选：特殊处理 Apple 对应 iPhone 的情况，其余直接使用品牌名进行模糊匹配
+        const searchKeyword =
+          brandName === "Apple" ? "iPhone" : brandName;
+        products = products.filter((p) =>
+          p.name.includes(searchKeyword),
+        );
+      }
+    }
 
-    return mockProducts.filter((p) =>
-      p.name.includes(searchKeyword),
-    );
-  }, [currentBrandId]);
+    return products;
+  }, [currentBrandId, activeTagId]);
 
   // 衍生状态：当前应该渲染在列表中的商品数组
   const visibleProducts = useMemo(() => {
@@ -109,7 +128,10 @@ function App() {
   return (
     <div className="flex flex-col h-screen bg-bg-page">
       {/* 顶部组件 */}
-      <Header />
+      <Header
+        activeTagId={activeTagId}
+        onTagSelect={setActiveTagId}
+      />
 
       {/* 主体左右分栏布局 */}
       <ContentLayout
