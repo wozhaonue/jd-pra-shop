@@ -1,6 +1,5 @@
 /** @format */
 
-import React from "react";
 import { mockBrands, mockProducts } from "./mocks/mockData";
 
 function App() {

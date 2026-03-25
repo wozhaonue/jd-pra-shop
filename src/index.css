@@ -2,6 +2,7 @@
 
 @import "tailwindcss";
 
+/* stylelint-disable-next-line at-rule-no-unknown */
 @theme {
   --color-brand-red: #ff4142;
   --color-brand-green: #00b578;
