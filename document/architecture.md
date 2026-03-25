@@ -8,6 +8,7 @@
 
 - `components/`: 存放所有 React UI 组件
   - `Header/`: 顶部导航与活动标签组件
+  - `ContentLayout/`: 主体左右分栏布局容器组件
 - `hooks/`: 存放自定义 Hooks（如无限滚动）
 - `mocks/`: 存放本地模拟数据（`mockData.ts`, `headerData.ts`）
 - `types/`: 存放 TypeScript 接口定义
