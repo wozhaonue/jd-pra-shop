@@ -14,7 +14,7 @@ function App() {
 
   // 渲染商品列表 (临时直接渲染全部 mockProducts，不加过滤和分页)
   const renderProductList = () => (
-    <div className="p-2 bg-bg-page min-h-full">
+    <div className="bg-white min-h-full">
       {mockProducts.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}

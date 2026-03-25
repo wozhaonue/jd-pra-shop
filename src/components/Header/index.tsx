@@ -45,12 +45,14 @@ export function Header() {
                 key={tag.id}
                 onClick={() => setActiveTagId(tag.id)}
                 className={cn(
-                  "relative px-4 py-1.5 rounded-full text-sm font-medium transition-colors",
+                  "relative px-4 py-1.5 rounded-full text-sm font-bold transition-colors",
                   isActive
                     ? isNationalSubsidy
                       ? "bg-brand-green text-white border border-transparent"
                       : "bg-brand-red text-white border border-transparent"
-                    : "bg-white text-brand-red border border-brand-red",
+                    : isNationalSubsidy
+                      ? "bg-white text-brand-green border border-brand-green"
+                      : "bg-[#FFF4F4] text-brand-red border border-brand-red",
                 )}
               >
                 {tag.name}
