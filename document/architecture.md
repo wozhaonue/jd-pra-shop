@@ -11,7 +11,8 @@
   - `ContentLayout/`: 主体左右分栏布局容器组件
   - `Sidebar/`: 左侧品牌导航列表组件
   - `ProductCard/`: 单个商品卡片组件
-- `hooks/`: 存放自定义 Hooks（如无限滚动）
+- `hooks/`: 存放自定义 Hooks
+  - `useInfiniteScroll.ts`: 封装基于 IntersectionObserver 的无限滚动触底加载逻辑
 - `mocks/`: 存放本地模拟数据（`mockData.ts`, `headerData.ts`）
 - `types/`: 存放 TypeScript 接口定义
 - `utils/`: 存放通用工具函数（如 `cn.ts` 样式合并工具）

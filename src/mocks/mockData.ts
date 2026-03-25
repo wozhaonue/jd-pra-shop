@@ -32,7 +32,7 @@ export const mockBrands: Brand[] = [
 export const mockProducts: Product[] = [
   {
     id: 'p359',
-    name: '联想moto 手机 44 旗舰版',
+    name: '联想moto 44 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1722.76,
@@ -42,7 +42,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p185',
-    name: '华为 手机 5 旗舰版',
+    name: '华为 5 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6719,
@@ -53,7 +53,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p341',
-    name: '联想moto 手机 26 旗舰版',
+    name: '联想moto 26 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6059.57,
@@ -64,7 +64,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p404',
-    name: '小米 手机 44 旗舰版',
+    name: '小米 44 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3460.74,
@@ -75,7 +75,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p80',
-    name: '一加 手机 35 旗舰版',
+    name: '一加 35 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1204.49,
@@ -86,7 +86,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p8',
-    name: 'iPhone 手机 8 旗舰版',
+    name: 'iPhone 8 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6086.92,
@@ -97,7 +97,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p155',
-    name: '三星 手机 20 旗舰版',
+    name: '三星 20 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6919,
@@ -108,7 +108,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p276',
-    name: 'vivo 手机 6 旗舰版',
+    name: 'vivo 6 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1005,
@@ -118,7 +118,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p100',
-    name: 'iQOO 手机 10 旗舰版',
+    name: 'iQOO 10 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3597.96,
@@ -129,7 +129,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p361',
-    name: '小米 手机 1 旗舰版',
+    name: '小米 1 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7117,
@@ -139,7 +139,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p166',
-    name: '三星 手机 31 旗舰版',
+    name: '三星 31 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1742,
@@ -149,7 +149,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p260',
-    name: '荣耀 手机 35 旗舰版',
+    name: '荣耀 35 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6595.82,
@@ -160,7 +160,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p16',
-    name: 'iPhone 手机 16 旗舰版',
+    name: 'iPhone 16 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7585.13,
@@ -171,7 +171,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p289',
-    name: 'vivo 手机 19 旗舰版',
+    name: 'vivo 19 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5395,
@@ -182,7 +182,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p1',
-    name: 'iPhone 手机 1 旗舰版',
+    name: 'iPhone 1 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1251.34,
@@ -193,7 +193,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p327',
-    name: '联想moto 手机 12 旗舰版',
+    name: '联想moto 12 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8040,
@@ -204,7 +204,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p371',
-    name: '小米 手机 11 旗舰版',
+    name: '小米 11 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8058.83,
@@ -214,7 +214,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p365',
-    name: '小米 手机 5 旗舰版',
+    name: '小米 5 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4513.75,
@@ -225,7 +225,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p147',
-    name: '三星 手机 12 旗舰版',
+    name: '三星 12 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8862.41,
@@ -236,7 +236,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p189',
-    name: '华为 手机 9 旗舰版',
+    name: '华为 9 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3972.54,
@@ -246,7 +246,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p17',
-    name: 'iPhone 手机 17 旗舰版',
+    name: 'iPhone 17 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2948,
@@ -257,7 +257,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p46',
-    name: '一加 手机 1 旗舰版',
+    name: '一加 1 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8786.08,
@@ -268,7 +268,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p162',
-    name: '三星 手机 27 旗舰版',
+    name: '三星 27 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2941.38,
@@ -279,7 +279,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p109',
-    name: 'iQOO 手机 19 旗舰版',
+    name: 'iQOO 19 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1560,
@@ -289,7 +289,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p347',
-    name: '联想moto 手机 32 旗舰版',
+    name: '联想moto 32 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2080.01,
@@ -300,7 +300,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p158',
-    name: '三星 手机 23 旗舰版',
+    name: '三星 23 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3366.83,
@@ -311,7 +311,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p254',
-    name: '荣耀 手机 29 旗舰版',
+    name: '荣耀 29 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7437,
@@ -321,7 +321,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p125',
-    name: 'iQOO 手机 35 旗舰版',
+    name: 'iQOO 35 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4570.85,
@@ -332,7 +332,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p57',
-    name: '一加 手机 12 旗舰版',
+    name: '一加 12 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5502,
@@ -343,7 +343,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p311',
-    name: 'vivo 手机 41 旗舰版',
+    name: 'vivo 41 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4732.29,
@@ -353,7 +353,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p59',
-    name: '一加 手机 14 旗舰版',
+    name: '一加 14 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7883,
@@ -364,7 +364,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p175',
-    name: '三星 手机 40 旗舰版',
+    name: '三星 40 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7388.43,
@@ -374,7 +374,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p84',
-    name: '一加 手机 39 旗舰版',
+    name: '一加 39 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7187.25,
@@ -385,7 +385,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p330',
-    name: '联想moto 手机 15 旗舰版',
+    name: '联想moto 15 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4572.43,
@@ -395,7 +395,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p11',
-    name: 'iPhone 手机 11 旗舰版',
+    name: 'iPhone 11 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5259.82,
@@ -406,7 +406,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p134',
-    name: 'iQOO 手机 44 旗舰版',
+    name: 'iQOO 44 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7235.72,
@@ -417,7 +417,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p183',
-    name: '华为 手机 3 旗舰版',
+    name: '华为 3 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3267.24,
@@ -428,7 +428,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p97',
-    name: 'iQOO 手机 7 旗舰版',
+    name: 'iQOO 7 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2797.79,
@@ -438,7 +438,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p22',
-    name: 'iPhone 手机 22 旗舰版',
+    name: 'iPhone 22 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6296.06,
@@ -449,7 +449,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p122',
-    name: 'iQOO 手机 32 旗舰版',
+    name: 'iQOO 32 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4796,
@@ -460,7 +460,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p275',
-    name: 'vivo 手机 5 旗舰版',
+    name: 'vivo 5 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4119.14,
@@ -470,7 +470,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p302',
-    name: 'vivo 手机 32 旗舰版',
+    name: 'vivo 32 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4762.43,
@@ -480,7 +480,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p334',
-    name: '联想moto 手机 19 旗舰版',
+    name: '联想moto 19 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6514.01,
@@ -491,7 +491,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p4',
-    name: 'iPhone 手机 4 旗舰版',
+    name: 'iPhone 4 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3720,
@@ -502,7 +502,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p3',
-    name: 'iPhone 手机 3 旗舰版',
+    name: 'iPhone 3 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4251.36,
@@ -513,7 +513,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p168',
-    name: '三星 手机 33 旗舰版',
+    name: '三星 33 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2783.22,
@@ -523,7 +523,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p52',
-    name: '一加 手机 7 旗舰版',
+    name: '一加 7 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4816,
@@ -534,7 +534,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p99',
-    name: 'iQOO 手机 9 旗舰版',
+    name: 'iQOO 9 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8878.43,
@@ -545,7 +545,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p241',
-    name: '荣耀 手机 16 旗舰版',
+    name: '荣耀 16 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1389,
@@ -555,7 +555,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p79',
-    name: '一加 手机 34 旗舰版',
+    name: '一加 34 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8150,
@@ -566,7 +566,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p124',
-    name: 'iQOO 手机 34 旗舰版',
+    name: 'iQOO 34 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2183,
@@ -576,7 +576,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p321',
-    name: '联想moto 手机 6 旗舰版',
+    name: '联想moto 6 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3837,
@@ -587,7 +587,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p270',
-    name: '荣耀 手机 45 旗舰版',
+    name: '荣耀 45 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2069.96,
@@ -598,7 +598,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p266',
-    name: '荣耀 手机 41 旗舰版',
+    name: '荣耀 41 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3433,
@@ -609,7 +609,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p139',
-    name: '三星 手机 4 旗舰版',
+    name: '三星 4 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6584.19,
@@ -619,7 +619,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p103',
-    name: 'iQOO 手机 13 旗舰版',
+    name: 'iQOO 13 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7822.17,
@@ -630,7 +630,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p312',
-    name: 'vivo 手机 42 旗舰版',
+    name: 'vivo 42 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2829.7,
@@ -641,7 +641,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p72',
-    name: '一加 手机 27 旗舰版',
+    name: '一加 27 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1802,
@@ -651,7 +651,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p173',
-    name: '三星 手机 38 旗舰版',
+    name: '三星 38 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7786,
@@ -662,7 +662,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p214',
-    name: '华为 手机 34 旗舰版',
+    name: '华为 34 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5813,
@@ -673,7 +673,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p66',
-    name: '一加 手机 21 旗舰版',
+    name: '一加 21 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8256,
@@ -683,7 +683,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p105',
-    name: 'iQOO 手机 15 旗舰版',
+    name: 'iQOO 15 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1098.86,
@@ -694,7 +694,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p211',
-    name: '华为 手机 31 旗舰版',
+    name: '华为 31 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8780.76,
@@ -705,7 +705,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p68',
-    name: '一加 手机 23 旗舰版',
+    name: '一加 23 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5740.57,
@@ -715,7 +715,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p300',
-    name: 'vivo 手机 30 旗舰版',
+    name: 'vivo 30 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5034,
@@ -725,7 +725,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p259',
-    name: '荣耀 手机 34 旗舰版',
+    name: '荣耀 34 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8613,
@@ -736,7 +736,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p328',
-    name: '联想moto 手机 13 旗舰版',
+    name: '联想moto 13 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8454.49,
@@ -747,7 +747,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p253',
-    name: '荣耀 手机 28 旗舰版',
+    name: '荣耀 28 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1015.34,
@@ -758,7 +758,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p121',
-    name: 'iQOO 手机 31 旗舰版',
+    name: 'iQOO 31 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1782,
@@ -769,7 +769,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p186',
-    name: '华为 手机 6 旗舰版',
+    name: '华为 6 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8012.6,
@@ -779,7 +779,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p387',
-    name: '小米 手机 27 旗舰版',
+    name: '小米 27 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3710.33,
@@ -789,7 +789,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p339',
-    name: '联想moto 手机 24 旗舰版',
+    name: '联想moto 24 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7365.91,
@@ -800,7 +800,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p310',
-    name: 'vivo 手机 40 旗舰版',
+    name: 'vivo 40 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7150,
@@ -810,7 +810,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p234',
-    name: '荣耀 手机 9 旗舰版',
+    name: '荣耀 9 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8032,
@@ -820,7 +820,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p338',
-    name: '联想moto 手机 23 旗舰版',
+    name: '联想moto 23 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8072,
@@ -831,7 +831,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p177',
-    name: '三星 手机 42 旗舰版',
+    name: '三星 42 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8529,
@@ -842,7 +842,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p118',
-    name: 'iQOO 手机 28 旗舰版',
+    name: 'iQOO 28 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3294.49,
@@ -853,7 +853,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p258',
-    name: '荣耀 手机 33 旗舰版',
+    name: '荣耀 33 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4107,
@@ -863,7 +863,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p36',
-    name: 'iPhone 手机 36 旗舰版',
+    name: 'iPhone 36 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7649,
@@ -873,7 +873,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p33',
-    name: 'iPhone 手机 33 旗舰版',
+    name: 'iPhone 33 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8016,
@@ -884,7 +884,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p393',
-    name: '小米 手机 33 旗舰版',
+    name: '小米 33 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1420.26,
@@ -895,7 +895,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p180',
-    name: '三星 手机 45 旗舰版',
+    name: '三星 45 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2066.96,
@@ -906,7 +906,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p201',
-    name: '华为 手机 21 旗舰版',
+    name: '华为 21 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3753.18,
@@ -917,7 +917,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p333',
-    name: '联想moto 手机 18 旗舰版',
+    name: '联想moto 18 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8250,
@@ -928,7 +928,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p377',
-    name: '小米 手机 17 旗舰版',
+    name: '小米 17 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2814.42,
@@ -939,7 +939,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p120',
-    name: 'iQOO 手机 30 旗舰版',
+    name: 'iQOO 30 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7456.88,
@@ -950,7 +950,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p200',
-    name: '华为 手机 20 旗舰版',
+    name: '华为 20 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3802,
@@ -961,7 +961,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p388',
-    name: '小米 手机 28 旗舰版',
+    name: '小米 28 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7860.67,
@@ -972,7 +972,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p89',
-    name: '一加 手机 44 旗舰版',
+    name: '一加 44 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2646,
@@ -982,7 +982,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p392',
-    name: '小米 手机 32 旗舰版',
+    name: '小米 32 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3972,
@@ -993,7 +993,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p215',
-    name: '华为 手机 35 旗舰版',
+    name: '华为 35 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3944,
@@ -1004,7 +1004,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p226',
-    name: '荣耀 手机 1 旗舰版',
+    name: '荣耀 1 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7351,
@@ -1015,7 +1015,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p82',
-    name: '一加 手机 37 旗舰版',
+    name: '一加 37 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2318,
@@ -1026,7 +1026,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p98',
-    name: 'iQOO 手机 8 旗舰版',
+    name: 'iQOO 8 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3117,
@@ -1037,7 +1037,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p271',
-    name: 'vivo 手机 1 旗舰版',
+    name: 'vivo 1 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8990.65,
@@ -1048,7 +1048,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p51',
-    name: '一加 手机 6 旗舰版',
+    name: '一加 6 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2608,
@@ -1059,7 +1059,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p224',
-    name: '华为 手机 44 旗舰版',
+    name: '华为 44 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6760.36,
@@ -1069,7 +1069,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p342',
-    name: '联想moto 手机 27 旗舰版',
+    name: '联想moto 27 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8259,
@@ -1080,7 +1080,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p292',
-    name: 'vivo 手机 22 旗舰版',
+    name: 'vivo 22 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5014.62,
@@ -1091,7 +1091,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p379',
-    name: '小米 手机 19 旗舰版',
+    name: '小米 19 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3449,
@@ -1102,7 +1102,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p358',
-    name: '联想moto 手机 43 旗舰版',
+    name: '联想moto 43 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5782.78,
@@ -1112,7 +1112,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p5',
-    name: 'iPhone 手机 5 旗舰版',
+    name: 'iPhone 5 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1093.95,
@@ -1122,7 +1122,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p12',
-    name: 'iPhone 手机 12 旗舰版',
+    name: 'iPhone 12 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5253,
@@ -1132,7 +1132,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p130',
-    name: 'iQOO 手机 40 旗舰版',
+    name: 'iQOO 40 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6710.52,
@@ -1143,7 +1143,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p225',
-    name: '华为 手机 45 旗舰版',
+    name: '华为 45 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2896,
@@ -1153,7 +1153,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p369',
-    name: '小米 手机 9 旗舰版',
+    name: '小米 9 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7043,
@@ -1163,7 +1163,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p256',
-    name: '荣耀 手机 31 旗舰版',
+    name: '荣耀 31 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7532,
@@ -1174,7 +1174,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p25',
-    name: 'iPhone 手机 25 旗舰版',
+    name: 'iPhone 25 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4520.48,
@@ -1185,7 +1185,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p70',
-    name: '一加 手机 25 旗舰版',
+    name: '一加 25 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3337,
@@ -1195,7 +1195,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p90',
-    name: '一加 手机 45 旗舰版',
+    name: '一加 45 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5514.74,
@@ -1206,7 +1206,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p48',
-    name: '一加 手机 3 旗舰版',
+    name: '一加 3 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8856.98,
@@ -1216,7 +1216,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p156',
-    name: '三星 手机 21 旗舰版',
+    name: '三星 21 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2057,
@@ -1227,7 +1227,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p145',
-    name: '三星 手机 10 旗舰版',
+    name: '三星 10 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7529.71,
@@ -1238,7 +1238,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p219',
-    name: '华为 手机 39 旗舰版',
+    name: '华为 39 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8294,
@@ -1249,7 +1249,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p348',
-    name: '联想moto 手机 33 旗舰版',
+    name: '联想moto 33 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8654,
@@ -1260,7 +1260,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p54',
-    name: '一加 手机 9 旗舰版',
+    name: '一加 9 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8448,
@@ -1271,7 +1271,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p108',
-    name: 'iQOO 手机 18 旗舰版',
+    name: 'iQOO 18 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5818.11,
@@ -1281,7 +1281,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p15',
-    name: 'iPhone 手机 15 旗舰版',
+    name: 'iPhone 15 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8247,
@@ -1292,7 +1292,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p27',
-    name: 'iPhone 手机 27 旗舰版',
+    name: 'iPhone 27 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2628,
@@ -1303,7 +1303,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p172',
-    name: '三星 手机 37 旗舰版',
+    name: '三星 37 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7340.74,
@@ -1313,7 +1313,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p92',
-    name: 'iQOO 手机 2 旗舰版',
+    name: 'iQOO 2 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5175.57,
@@ -1324,7 +1324,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p188',
-    name: '华为 手机 8 旗舰版',
+    name: '华为 8 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5909,
@@ -1334,7 +1334,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p14',
-    name: 'iPhone 手机 14 旗舰版',
+    name: 'iPhone 14 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5281,
@@ -1345,7 +1345,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p58',
-    name: '一加 手机 13 旗舰版',
+    name: '一加 13 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5279.17,
@@ -1356,7 +1356,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p9',
-    name: 'iPhone 手机 9 旗舰版',
+    name: 'iPhone 9 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5068,
@@ -1367,7 +1367,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p345',
-    name: '联想moto 手机 30 旗舰版',
+    name: '联想moto 30 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2942.56,
@@ -1377,7 +1377,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p323',
-    name: '联想moto 手机 8 旗舰版',
+    name: '联想moto 8 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8412.83,
@@ -1388,7 +1388,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p106',
-    name: 'iQOO 手机 16 旗舰版',
+    name: 'iQOO 16 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7484.43,
@@ -1398,7 +1398,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p20',
-    name: 'iPhone 手机 20 旗舰版',
+    name: 'iPhone 20 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8452,
@@ -1408,7 +1408,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p207',
-    name: '华为 手机 27 旗舰版',
+    name: '华为 27 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1826,
@@ -1419,7 +1419,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p368',
-    name: '小米 手机 8 旗舰版',
+    name: '小米 8 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2326,
@@ -1430,7 +1430,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p240',
-    name: '荣耀 手机 15 旗舰版',
+    name: '荣耀 15 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6118,
@@ -1441,7 +1441,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p140',
-    name: '三星 手机 5 旗舰版',
+    name: '三星 5 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1175,
@@ -1452,7 +1452,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p49',
-    name: '一加 手机 4 旗舰版',
+    name: '一加 4 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8532,
@@ -1462,7 +1462,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p277',
-    name: 'vivo 手机 7 旗舰版',
+    name: 'vivo 7 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6930,
@@ -1473,7 +1473,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p237',
-    name: '荣耀 手机 12 旗舰版',
+    name: '荣耀 12 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8051.31,
@@ -1483,7 +1483,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p249',
-    name: '荣耀 手机 24 旗舰版',
+    name: '荣耀 24 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8486.53,
@@ -1494,7 +1494,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p131',
-    name: 'iQOO 手机 41 旗舰版',
+    name: 'iQOO 41 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5011.27,
@@ -1505,7 +1505,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p129',
-    name: 'iQOO 手机 39 旗舰版',
+    name: 'iQOO 39 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8816.3,
@@ -1515,7 +1515,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p23',
-    name: 'iPhone 手机 23 旗舰版',
+    name: 'iPhone 23 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2198,
@@ -1526,7 +1526,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p255',
-    name: '荣耀 手机 30 旗舰版',
+    name: '荣耀 30 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8043,
@@ -1536,7 +1536,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p203',
-    name: '华为 手机 23 旗舰版',
+    name: '华为 23 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8210,
@@ -1546,7 +1546,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p198',
-    name: '华为 手机 18 旗舰版',
+    name: '华为 18 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1648.62,
@@ -1557,7 +1557,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p160',
-    name: '三星 手机 25 旗舰版',
+    name: '三星 25 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3686,
@@ -1568,7 +1568,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p351',
-    name: '联想moto 手机 36 旗舰版',
+    name: '联想moto 36 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3610.88,
@@ -1578,7 +1578,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p236',
-    name: '荣耀 手机 11 旗舰版',
+    name: '荣耀 11 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6637,
@@ -1589,7 +1589,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p123',
-    name: 'iQOO 手机 33 旗舰版',
+    name: 'iQOO 33 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4261.42,
@@ -1600,7 +1600,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p184',
-    name: '华为 手机 4 旗舰版',
+    name: '华为 4 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1854.56,
@@ -1611,7 +1611,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p64',
-    name: '一加 手机 19 旗舰版',
+    name: '一加 19 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2346,
@@ -1622,7 +1622,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p252',
-    name: '荣耀 手机 27 旗舰版',
+    name: '荣耀 27 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5344.32,
@@ -1632,7 +1632,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p314',
-    name: 'vivo 手机 44 旗舰版',
+    name: 'vivo 44 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7086.63,
@@ -1643,7 +1643,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p74',
-    name: '一加 手机 29 旗舰版',
+    name: '一加 29 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4656,
@@ -1653,7 +1653,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p220',
-    name: '华为 手机 40 旗舰版',
+    name: '华为 40 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3674,
@@ -1664,7 +1664,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p24',
-    name: 'iPhone 手机 24 旗舰版',
+    name: 'iPhone 24 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3346.05,
@@ -1675,7 +1675,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p191',
-    name: '华为 手机 11 旗舰版',
+    name: '华为 11 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6275.23,
@@ -1686,7 +1686,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p209',
-    name: '华为 手机 29 旗舰版',
+    name: '华为 29 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3319.53,
@@ -1697,7 +1697,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p21',
-    name: 'iPhone 手机 21 旗舰版',
+    name: 'iPhone 21 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3950.03,
@@ -1708,7 +1708,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p111',
-    name: 'iQOO 手机 21 旗舰版',
+    name: 'iQOO 21 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8592,
@@ -1719,7 +1719,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p81',
-    name: '一加 手机 36 旗舰版',
+    name: '一加 36 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2408.39,
@@ -1729,7 +1729,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p313',
-    name: 'vivo 手机 43 旗舰版',
+    name: 'vivo 43 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7089.43,
@@ -1740,7 +1740,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p373',
-    name: '小米 手机 13 旗舰版',
+    name: '小米 13 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4458.98,
@@ -1750,7 +1750,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p178',
-    name: '三星 手机 43 旗舰版',
+    name: '三星 43 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8429,
@@ -1761,7 +1761,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p395',
-    name: '小米 手机 35 旗舰版',
+    name: '小米 35 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4116.57,
@@ -1771,7 +1771,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p55',
-    name: '一加 手机 10 旗舰版',
+    name: '一加 10 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6590.94,
@@ -1782,7 +1782,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p381',
-    name: '小米 手机 21 旗舰版',
+    name: '小米 21 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2686.47,
@@ -1792,7 +1792,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p228',
-    name: '荣耀 手机 3 旗舰版',
+    name: '荣耀 3 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7986,
@@ -1803,7 +1803,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p261',
-    name: '荣耀 手机 36 旗舰版',
+    name: '荣耀 36 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3991.87,
@@ -1813,7 +1813,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p262',
-    name: '荣耀 手机 37 旗舰版',
+    name: '荣耀 37 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4775.23,
@@ -1824,7 +1824,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p32',
-    name: 'iPhone 手机 32 旗舰版',
+    name: 'iPhone 32 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4846.91,
@@ -1834,7 +1834,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p148',
-    name: '三星 手机 13 旗舰版',
+    name: '三星 13 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3350,
@@ -1844,7 +1844,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p264',
-    name: '荣耀 手机 39 旗舰版',
+    name: '荣耀 39 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7493.04,
@@ -1855,7 +1855,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p206',
-    name: '华为 手机 26 旗舰版',
+    name: '华为 26 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6375.61,
@@ -1866,7 +1866,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p279',
-    name: 'vivo 手机 9 旗舰版',
+    name: 'vivo 9 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1687,
@@ -1876,7 +1876,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p143',
-    name: '三星 手机 8 旗舰版',
+    name: '三星 8 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2625.76,
@@ -1887,7 +1887,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p161',
-    name: '三星 手机 26 旗舰版',
+    name: '三星 26 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7959.2,
@@ -1897,7 +1897,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p235',
-    name: '荣耀 手机 10 旗舰版',
+    name: '荣耀 10 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5727,
@@ -1907,7 +1907,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p278',
-    name: 'vivo 手机 8 旗舰版',
+    name: 'vivo 8 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6711,
@@ -1918,7 +1918,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p336',
-    name: '联想moto 手机 21 旗舰版',
+    name: '联想moto 21 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7115,
@@ -1929,7 +1929,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p29',
-    name: 'iPhone 手机 29 旗舰版',
+    name: 'iPhone 29 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5383,
@@ -1940,7 +1940,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p232',
-    name: '荣耀 手机 7 旗舰版',
+    name: '荣耀 7 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8380.44,
@@ -1951,7 +1951,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p385',
-    name: '小米 手机 25 旗舰版',
+    name: '小米 25 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3147.89,
@@ -1962,7 +1962,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p290',
-    name: 'vivo 手机 20 旗舰版',
+    name: 'vivo 20 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8061.3,
@@ -1973,7 +1973,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p91',
-    name: 'iQOO 手机 1 旗舰版',
+    name: 'iQOO 1 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2925.09,
@@ -1984,7 +1984,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p199',
-    name: '华为 手机 19 旗舰版',
+    name: '华为 19 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3210.83,
@@ -1994,7 +1994,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p73',
-    name: '一加 手机 28 旗舰版',
+    name: '一加 28 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4937.87,
@@ -2005,7 +2005,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p346',
-    name: '联想moto 手机 31 旗舰版',
+    name: '联想moto 31 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6669.85,
@@ -2016,7 +2016,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p170',
-    name: '三星 手机 35 旗舰版',
+    name: '三星 35 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7118,
@@ -2026,7 +2026,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p301',
-    name: 'vivo 手机 31 旗舰版',
+    name: 'vivo 31 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5584.92,
@@ -2037,7 +2037,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p287',
-    name: 'vivo 手机 17 旗舰版',
+    name: 'vivo 17 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5593,
@@ -2047,7 +2047,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p304',
-    name: 'vivo 手机 34 旗舰版',
+    name: 'vivo 34 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3254.25,
@@ -2058,7 +2058,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p114',
-    name: 'iQOO 手机 24 旗舰版',
+    name: 'iQOO 24 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2467,
@@ -2069,7 +2069,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p284',
-    name: 'vivo 手机 14 旗舰版',
+    name: 'vivo 14 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7604.96,
@@ -2080,7 +2080,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p242',
-    name: '荣耀 手机 17 旗舰版',
+    name: '荣耀 17 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4489.64,
@@ -2091,7 +2091,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p352',
-    name: '联想moto 手机 37 旗舰版',
+    name: '联想moto 37 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8794,
@@ -2102,7 +2102,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p192',
-    name: '华为 手机 12 旗舰版',
+    name: '华为 12 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2203.43,
@@ -2113,7 +2113,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p149',
-    name: '三星 手机 14 旗舰版',
+    name: '三星 14 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5122.56,
@@ -2124,7 +2124,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p318',
-    name: '联想moto 手机 3 旗舰版',
+    name: '联想moto 3 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1172.38,
@@ -2134,7 +2134,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p169',
-    name: '三星 手机 34 旗舰版',
+    name: '三星 34 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2622,
@@ -2145,7 +2145,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p157',
-    name: '三星 手机 22 旗舰版',
+    name: '三星 22 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8377.48,
@@ -2155,7 +2155,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p308',
-    name: 'vivo 手机 38 旗舰版',
+    name: 'vivo 38 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1992.58,
@@ -2165,7 +2165,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p205',
-    name: '华为 手机 25 旗舰版',
+    name: '华为 25 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5050.98,
@@ -2176,7 +2176,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p181',
-    name: '华为 手机 1 旗舰版',
+    name: '华为 1 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3180,
@@ -2187,7 +2187,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p374',
-    name: '小米 手机 14 旗舰版',
+    name: '小米 14 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4162.01,
@@ -2198,7 +2198,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p85',
-    name: '一加 手机 40 旗舰版',
+    name: '一加 40 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2747,
@@ -2209,7 +2209,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p398',
-    name: '小米 手机 38 旗舰版',
+    name: '小米 38 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8570.27,
@@ -2220,7 +2220,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p378',
-    name: '小米 手机 18 旗舰版',
+    name: '小米 18 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2544.12,
@@ -2231,7 +2231,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p87',
-    name: '一加 手机 42 旗舰版',
+    name: '一加 42 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4004.42,
@@ -2241,7 +2241,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p245',
-    name: '荣耀 手机 20 旗舰版',
+    name: '荣耀 20 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6808,
@@ -2252,7 +2252,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p43',
-    name: 'iPhone 手机 43 旗舰版',
+    name: 'iPhone 43 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5614.65,
@@ -2262,7 +2262,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p250',
-    name: '荣耀 手机 25 旗舰版',
+    name: '荣耀 25 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4455.79,
@@ -2273,7 +2273,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p142',
-    name: '三星 手机 7 旗舰版',
+    name: '三星 7 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3530,
@@ -2284,7 +2284,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p331',
-    name: '联想moto 手机 16 旗舰版',
+    name: '联想moto 16 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3549.12,
@@ -2294,7 +2294,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p309',
-    name: 'vivo 手机 39 旗舰版',
+    name: 'vivo 39 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2088,
@@ -2305,7 +2305,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p251',
-    name: '荣耀 手机 26 旗舰版',
+    name: '荣耀 26 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5482.18,
@@ -2316,7 +2316,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p194',
-    name: '华为 手机 14 旗舰版',
+    name: '华为 14 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2547,
@@ -2327,7 +2327,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p78',
-    name: '一加 手机 33 旗舰版',
+    name: '一加 33 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2936,
@@ -2338,7 +2338,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p375',
-    name: '小米 手机 15 旗舰版',
+    name: '小米 15 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6962.64,
@@ -2348,7 +2348,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p197',
-    name: '华为 手机 17 旗舰版',
+    name: '华为 17 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5266,
@@ -2358,7 +2358,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p76',
-    name: '一加 手机 31 旗舰版',
+    name: '一加 31 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1458.63,
@@ -2369,7 +2369,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p119',
-    name: 'iQOO 手机 29 旗舰版',
+    name: 'iQOO 29 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2507,
@@ -2380,7 +2380,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p282',
-    name: 'vivo 手机 12 旗舰版',
+    name: 'vivo 12 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3105,
@@ -2390,7 +2390,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p315',
-    name: 'vivo 手机 45 旗舰版',
+    name: 'vivo 45 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8675,
@@ -2401,7 +2401,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p244',
-    name: '荣耀 手机 19 旗舰版',
+    name: '荣耀 19 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4387,
@@ -2411,7 +2411,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p222',
-    name: '华为 手机 42 旗舰版',
+    name: '华为 42 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8579,
@@ -2422,7 +2422,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p288',
-    name: 'vivo 手机 18 旗舰版',
+    name: 'vivo 18 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3284.13,
@@ -2433,7 +2433,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p217',
-    name: '华为 手机 37 旗舰版',
+    name: '华为 37 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2143.71,
@@ -2443,7 +2443,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p325',
-    name: '联想moto 手机 10 旗舰版',
+    name: '联想moto 10 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4324.01,
@@ -2453,7 +2453,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p386',
-    name: '小米 手机 26 旗舰版',
+    name: '小米 26 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3521,
@@ -2463,7 +2463,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p401',
-    name: '小米 手机 41 旗舰版',
+    name: '小米 41 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3275.87,
@@ -2473,7 +2473,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p2',
-    name: 'iPhone 手机 2 旗舰版',
+    name: 'iPhone 2 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8834,
@@ -2484,7 +2484,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p280',
-    name: 'vivo 手机 10 旗舰版',
+    name: 'vivo 10 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5333,
@@ -2495,7 +2495,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p31',
-    name: 'iPhone 手机 31 旗舰版',
+    name: 'iPhone 31 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2012,
@@ -2505,7 +2505,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p190',
-    name: '华为 手机 10 旗舰版',
+    name: '华为 10 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4825,
@@ -2516,7 +2516,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p202',
-    name: '华为 手机 22 旗舰版',
+    name: '华为 22 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7527.84,
@@ -2527,7 +2527,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p34',
-    name: 'iPhone 手机 34 旗舰版',
+    name: 'iPhone 34 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1039.75,
@@ -2538,7 +2538,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p95',
-    name: 'iQOO 手机 5 旗舰版',
+    name: 'iQOO 5 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4214.26,
@@ -2549,7 +2549,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p229',
-    name: '荣耀 手机 4 旗舰版',
+    name: '荣耀 4 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1420,
@@ -2560,7 +2560,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p370',
-    name: '小米 手机 10 旗舰版',
+    name: '小米 10 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1766,
@@ -2571,7 +2571,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p38',
-    name: 'iPhone 手机 38 旗舰版',
+    name: 'iPhone 38 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1325,
@@ -2582,7 +2582,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p67',
-    name: '一加 手机 22 旗舰版',
+    name: '一加 22 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7233.83,
@@ -2593,7 +2593,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p213',
-    name: '华为 手机 33 旗舰版',
+    name: '华为 33 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8618,
@@ -2604,7 +2604,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p390',
-    name: '小米 手机 30 旗舰版',
+    name: '小米 30 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7600,
@@ -2615,7 +2615,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p246',
-    name: '荣耀 手机 21 旗舰版',
+    name: '荣耀 21 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5383,
@@ -2625,7 +2625,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p71',
-    name: '一加 手机 26 旗舰版',
+    name: '一加 26 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1296,
@@ -2635,7 +2635,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p366',
-    name: '小米 手机 6 旗舰版',
+    name: '小米 6 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8465.9,
@@ -2646,7 +2646,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p326',
-    name: '联想moto 手机 11 旗舰版',
+    name: '联想moto 11 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8928,
@@ -2657,7 +2657,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p61',
-    name: '一加 手机 16 旗舰版',
+    name: '一加 16 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8831,
@@ -2667,7 +2667,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p127',
-    name: 'iQOO 手机 37 旗舰版',
+    name: 'iQOO 37 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2319.18,
@@ -2678,7 +2678,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p62',
-    name: '一加 手机 17 旗舰版',
+    name: '一加 17 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8663,
@@ -2689,7 +2689,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p239',
-    name: '荣耀 手机 14 旗舰版',
+    name: '荣耀 14 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7565,
@@ -2700,7 +2700,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p402',
-    name: '小米 手机 42 旗舰版',
+    name: '小米 42 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1084,
@@ -2710,7 +2710,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p53',
-    name: '一加 手机 8 旗舰版',
+    name: '一加 8 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8914.58,
@@ -2721,7 +2721,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p176',
-    name: '三星 手机 41 旗舰版',
+    name: '三星 41 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5980,
@@ -2732,7 +2732,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p274',
-    name: 'vivo 手机 4 旗舰版',
+    name: 'vivo 4 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3340,
@@ -2743,7 +2743,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p151',
-    name: '三星 手机 16 旗舰版',
+    name: '三星 16 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4772.13,
@@ -2754,7 +2754,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p397',
-    name: '小米 手机 37 旗舰版',
+    name: '小米 37 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6371,
@@ -2764,7 +2764,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p115',
-    name: 'iQOO 手机 25 旗舰版',
+    name: 'iQOO 25 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4519,
@@ -2775,7 +2775,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p344',
-    name: '联想moto 手机 29 旗舰版',
+    name: '联想moto 29 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8603,
@@ -2786,7 +2786,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p364',
-    name: '小米 手机 4 旗舰版',
+    name: '小米 4 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2041.92,
@@ -2797,7 +2797,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p403',
-    name: '小米 手机 43 旗舰版',
+    name: '小米 43 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5165,
@@ -2807,7 +2807,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p231',
-    name: '荣耀 手机 6 旗舰版',
+    name: '荣耀 6 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2271.57,
@@ -2818,7 +2818,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p265',
-    name: '荣耀 手机 40 旗舰版',
+    name: '荣耀 40 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6573,
@@ -2828,7 +2828,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p135',
-    name: 'iQOO 手机 45 旗舰版',
+    name: 'iQOO 45 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6923,
@@ -2839,7 +2839,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p196',
-    name: '华为 手机 16 旗舰版',
+    name: '华为 16 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7550.87,
@@ -2849,7 +2849,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p159',
-    name: '三星 手机 24 旗舰版',
+    name: '三星 24 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7464,
@@ -2860,7 +2860,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p297',
-    name: 'vivo 手机 27 旗舰版',
+    name: 'vivo 27 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4602.65,
@@ -2870,7 +2870,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p116',
-    name: 'iQOO 手机 26 旗舰版',
+    name: 'iQOO 26 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6304.72,
@@ -2881,7 +2881,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p356',
-    name: '联想moto 手机 41 旗舰版',
+    name: '联想moto 41 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8614.05,
@@ -2892,7 +2892,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p233',
-    name: '荣耀 手机 8 旗舰版',
+    name: '荣耀 8 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4693,
@@ -2902,7 +2902,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p45',
-    name: 'iPhone 手机 45 旗舰版',
+    name: 'iPhone 45 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7810,
@@ -2913,7 +2913,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p372',
-    name: '小米 手机 12 旗舰版',
+    name: '小米 12 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1090,
@@ -2923,7 +2923,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p383',
-    name: '小米 手机 23 旗舰版',
+    name: '小米 23 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4815,
@@ -2934,7 +2934,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p357',
-    name: '联想moto 手机 42 旗舰版',
+    name: '联想moto 42 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4842,
@@ -2945,7 +2945,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p150',
-    name: '三星 手机 15 旗舰版',
+    name: '三星 15 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1231,
@@ -2955,7 +2955,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p353',
-    name: '联想moto 手机 38 旗舰版',
+    name: '联想moto 38 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8692,
@@ -2966,7 +2966,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p174',
-    name: '三星 手机 39 旗舰版',
+    name: '三星 39 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5339,
@@ -2977,7 +2977,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p281',
-    name: 'vivo 手机 11 旗舰版',
+    name: 'vivo 11 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2792,
@@ -2988,7 +2988,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p93',
-    name: 'iQOO 手机 3 旗舰版',
+    name: 'iQOO 3 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5769,
@@ -2998,7 +2998,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p56',
-    name: '一加 手机 11 旗舰版',
+    name: '一加 11 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6729,
@@ -3009,7 +3009,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p83',
-    name: '一加 手机 38 旗舰版',
+    name: '一加 38 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4266.08,
@@ -3020,7 +3020,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p7',
-    name: 'iPhone 手机 7 旗舰版',
+    name: 'iPhone 7 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7625.3,
@@ -3030,7 +3030,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p294',
-    name: 'vivo 手机 24 旗舰版',
+    name: 'vivo 24 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3575,
@@ -3041,7 +3041,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p322',
-    name: '联想moto 手机 7 旗舰版',
+    name: '联想moto 7 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1587.35,
@@ -3052,7 +3052,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p28',
-    name: 'iPhone 手机 28 旗舰版',
+    name: 'iPhone 28 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5770,
@@ -3062,7 +3062,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p273',
-    name: 'vivo 手机 3 旗舰版',
+    name: 'vivo 3 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6133.72,
@@ -3073,7 +3073,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p30',
-    name: 'iPhone 手机 30 旗舰版',
+    name: 'iPhone 30 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1388,
@@ -3083,7 +3083,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p88',
-    name: '一加 手机 43 旗舰版',
+    name: '一加 43 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7775.44,
@@ -3094,7 +3094,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p136',
-    name: '三星 手机 1 旗舰版',
+    name: '三星 1 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7138.43,
@@ -3105,7 +3105,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p384',
-    name: '小米 手机 24 旗舰版',
+    name: '小米 24 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5642.74,
@@ -3115,7 +3115,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p65',
-    name: '一加 手机 20 旗舰版',
+    name: '一加 20 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6647.59,
@@ -3126,7 +3126,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p10',
-    name: 'iPhone 手机 10 旗舰版',
+    name: 'iPhone 10 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5810,
@@ -3137,7 +3137,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p171',
-    name: '三星 手机 36 旗舰版',
+    name: '三星 36 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5288,
@@ -3147,7 +3147,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p380',
-    name: '小米 手机 20 旗舰版',
+    name: '小米 20 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6294.09,
@@ -3158,7 +3158,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p40',
-    name: 'iPhone 手机 40 旗舰版',
+    name: 'iPhone 40 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8035.06,
@@ -3168,7 +3168,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p182',
-    name: '华为 手机 2 旗舰版',
+    name: '华为 2 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7894,
@@ -3179,7 +3179,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p389',
-    name: '小米 手机 29 旗舰版',
+    name: '小米 29 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8022,
@@ -3189,7 +3189,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p102',
-    name: 'iQOO 手机 12 旗舰版',
+    name: 'iQOO 12 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4052,
@@ -3200,7 +3200,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p376',
-    name: '小米 手机 16 旗舰版',
+    name: '小米 16 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7866.59,
@@ -3211,7 +3211,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p269',
-    name: '荣耀 手机 44 旗舰版',
+    name: '荣耀 44 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4824,
@@ -3221,7 +3221,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p44',
-    name: 'iPhone 手机 44 旗舰版',
+    name: 'iPhone 44 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5949.33,
@@ -3232,7 +3232,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p396',
-    name: '小米 手机 36 旗舰版',
+    name: '小米 36 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3402,
@@ -3243,7 +3243,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p268',
-    name: '荣耀 手机 43 旗舰版',
+    name: '荣耀 43 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1154,
@@ -3254,7 +3254,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p305',
-    name: 'vivo 手机 35 旗舰版',
+    name: 'vivo 35 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8132.17,
@@ -3265,7 +3265,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p50',
-    name: '一加 手机 5 旗舰版',
+    name: '一加 5 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8709,
@@ -3276,7 +3276,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p210',
-    name: '华为 手机 30 旗舰版',
+    name: '华为 30 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4877.16,
@@ -3287,7 +3287,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p293',
-    name: 'vivo 手机 23 旗舰版',
+    name: 'vivo 23 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1216.34,
@@ -3298,7 +3298,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p26',
-    name: 'iPhone 手机 26 旗舰版',
+    name: 'iPhone 26 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4364,
@@ -3308,7 +3308,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p285',
-    name: 'vivo 手机 15 旗舰版',
+    name: 'vivo 15 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3908,
@@ -3318,7 +3318,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p227',
-    name: '荣耀 手机 2 旗舰版',
+    name: '荣耀 2 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3989,
@@ -3329,7 +3329,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p37',
-    name: 'iPhone 手机 37 旗舰版',
+    name: 'iPhone 37 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2911.17,
@@ -3340,7 +3340,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p350',
-    name: '联想moto 手机 35 旗舰版',
+    name: '联想moto 35 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1802,
@@ -3351,7 +3351,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p146',
-    name: '三星 手机 11 旗舰版',
+    name: '三星 11 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2857,
@@ -3362,7 +3362,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p316',
-    name: '联想moto 手机 1 旗舰版',
+    name: '联想moto 1 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5215.96,
@@ -3372,7 +3372,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p107',
-    name: 'iQOO 手机 17 旗舰版',
+    name: 'iQOO 17 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6873.89,
@@ -3383,7 +3383,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p193',
-    name: '华为 手机 13 旗舰版',
+    name: '华为 13 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6285.36,
@@ -3393,7 +3393,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p218',
-    name: '华为 手机 38 旗舰版',
+    name: '华为 38 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5129,
@@ -3403,7 +3403,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p179',
-    name: '三星 手机 44 旗舰版',
+    name: '三星 44 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1164,
@@ -3414,7 +3414,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p35',
-    name: 'iPhone 手机 35 旗舰版',
+    name: 'iPhone 35 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6310,
@@ -3425,7 +3425,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p187',
-    name: '华为 手机 7 旗舰版',
+    name: '华为 7 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3677.77,
@@ -3436,7 +3436,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p303',
-    name: 'vivo 手机 33 旗舰版',
+    name: 'vivo 33 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1575.96,
@@ -3446,7 +3446,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p42',
-    name: 'iPhone 手机 42 旗舰版',
+    name: 'iPhone 42 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5225,
@@ -3456,7 +3456,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p212',
-    name: '华为 手机 32 旗舰版',
+    name: '华为 32 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8623.94,
@@ -3466,7 +3466,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p340',
-    name: '联想moto 手机 25 旗舰版',
+    name: '联想moto 25 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8505.42,
@@ -3477,7 +3477,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p113',
-    name: 'iQOO 手机 23 旗舰版',
+    name: 'iQOO 23 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7500.27,
@@ -3488,7 +3488,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p243',
-    name: '荣耀 手机 18 旗舰版',
+    name: '荣耀 18 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7112.03,
@@ -3499,7 +3499,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p152',
-    name: '三星 手机 17 旗舰版',
+    name: '三星 17 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8117,
@@ -3510,7 +3510,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p112',
-    name: 'iQOO 手机 22 旗舰版',
+    name: 'iQOO 22 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1340.38,
@@ -3521,7 +3521,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p306',
-    name: 'vivo 手机 36 旗舰版',
+    name: 'vivo 36 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8070.63,
@@ -3531,7 +3531,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p329',
-    name: '联想moto 手机 14 旗舰版',
+    name: '联想moto 14 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1831.82,
@@ -3542,7 +3542,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p286',
-    name: 'vivo 手机 16 旗舰版',
+    name: 'vivo 16 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 2504,
@@ -3553,7 +3553,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p69',
-    name: '一加 手机 24 旗舰版',
+    name: '一加 24 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 3217,
@@ -3563,7 +3563,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p295',
-    name: 'vivo 手机 25 旗舰版',
+    name: 'vivo 25 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2857.75,
@@ -3573,7 +3573,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p128',
-    name: 'iQOO 手机 38 旗舰版',
+    name: 'iQOO 38 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4409,
@@ -3584,7 +3584,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p41',
-    name: 'iPhone 手机 41 旗舰版',
+    name: 'iPhone 41 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2925.62,
@@ -3595,7 +3595,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p208',
-    name: '华为 手机 28 旗舰版',
+    name: '华为 28 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2925.46,
@@ -3606,7 +3606,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p18',
-    name: 'iPhone 手机 18 旗舰版',
+    name: 'iPhone 18 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3611,
@@ -3617,7 +3617,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p13',
-    name: 'iPhone 手机 13 旗舰版',
+    name: 'iPhone 13 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2906,
@@ -3628,7 +3628,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p399',
-    name: '小米 手机 39 旗舰版',
+    name: '小米 39 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4655.33,
@@ -3638,7 +3638,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p394',
-    name: '小米 手机 34 旗舰版',
+    name: '小米 34 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4275.76,
@@ -3649,7 +3649,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p144',
-    name: '三星 手机 9 旗舰版',
+    name: '三星 9 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5154,
@@ -3660,7 +3660,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p307',
-    name: 'vivo 手机 37 旗舰版',
+    name: 'vivo 37 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7941.35,
@@ -3670,7 +3670,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p94',
-    name: 'iQOO 手机 4 旗舰版',
+    name: 'iQOO 4 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1851,
@@ -3681,7 +3681,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p75',
-    name: '一加 手机 30 旗舰版',
+    name: '一加 30 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4101,
@@ -3692,7 +3692,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p101',
-    name: 'iQOO 手机 11 旗舰版',
+    name: 'iQOO 11 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8631,
@@ -3703,7 +3703,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p354',
-    name: '联想moto 手机 39 旗舰版',
+    name: '联想moto 39 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5842.62,
@@ -3714,7 +3714,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p216',
-    name: '华为 手机 36 旗舰版',
+    name: '华为 36 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8537.65,
@@ -3725,7 +3725,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p405',
-    name: '小米 手机 45 旗舰版',
+    name: '小米 45 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3680.58,
@@ -3736,7 +3736,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p299',
-    name: 'vivo 手机 29 旗舰版',
+    name: 'vivo 29 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3639,
@@ -3747,7 +3747,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p137',
-    name: '三星 手机 2 旗舰版',
+    name: '三星 2 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1149,
@@ -3758,7 +3758,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p204',
-    name: '华为 手机 24 旗舰版',
+    name: '华为 24 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4398,
@@ -3769,7 +3769,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p332',
-    name: '联想moto 手机 17 旗舰版',
+    name: '联想moto 17 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5720.78,
@@ -3780,7 +3780,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p317',
-    name: '联想moto 手机 2 旗舰版',
+    name: '联想moto 2 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 7281,
@@ -3791,7 +3791,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p337',
-    name: '联想moto 手机 22 旗舰版',
+    name: '联想moto 22 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5015,
@@ -3802,7 +3802,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p320',
-    name: '联想moto 手机 5 旗舰版',
+    name: '联想moto 5 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5396,
@@ -3813,7 +3813,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p283',
-    name: 'vivo 手机 13 旗舰版',
+    name: 'vivo 13 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6248.22,
@@ -3824,7 +3824,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p47',
-    name: '一加 手机 2 旗舰版',
+    name: '一加 2 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7745.42,
@@ -3834,7 +3834,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p324',
-    name: '联想moto 手机 9 旗舰版',
+    name: '联想moto 9 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5425.32,
@@ -3845,7 +3845,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p138',
-    name: '三星 手机 3 旗舰版',
+    name: '三星 3 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4927,
@@ -3855,7 +3855,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p77',
-    name: '一加 手机 32 旗舰版',
+    name: '一加 32 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7193,
@@ -3866,7 +3866,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p363',
-    name: '小米 手机 3 旗舰版',
+    name: '小米 3 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 7160.8,
@@ -3876,7 +3876,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p86',
-    name: '一加 手机 41 旗舰版',
+    name: '一加 41 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4657,
@@ -3887,7 +3887,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p39',
-    name: 'iPhone 手机 39 旗舰版',
+    name: 'iPhone 39 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6758.42,
@@ -3898,7 +3898,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p223',
-    name: '华为 手机 43 旗舰版',
+    name: '华为 43 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6803,
@@ -3909,7 +3909,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p355',
-    name: '联想moto 手机 40 旗舰版',
+    name: '联想moto 40 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6565,
@@ -3920,7 +3920,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p104',
-    name: 'iQOO 手机 14 旗舰版',
+    name: 'iQOO 14 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8266,
@@ -3931,7 +3931,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p248',
-    name: '荣耀 手机 23 旗舰版',
+    name: '荣耀 23 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3346,
@@ -3942,7 +3942,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p298',
-    name: 'vivo 手机 28 旗舰版',
+    name: 'vivo 28 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 6269,
@@ -3952,7 +3952,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p263',
-    name: '荣耀 手机 38 旗舰版',
+    name: '荣耀 38 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 7586.56,
@@ -3962,7 +3962,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p110',
-    name: 'iQOO 手机 20 旗舰版',
+    name: 'iQOO 20 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8512,
@@ -3972,7 +3972,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p60',
-    name: '一加 手机 15 旗舰版',
+    name: '一加 15 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4738,
@@ -3982,7 +3982,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p165',
-    name: '三星 手机 30 旗舰版',
+    name: '三星 30 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 6597,
@@ -3993,7 +3993,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p362',
-    name: '小米 手机 2 旗舰版',
+    name: '小米 2 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8906,
@@ -4004,7 +4004,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p343',
-    name: '联想moto 手机 28 旗舰版',
+    name: '联想moto 28 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 4454,
@@ -4015,7 +4015,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p382',
-    name: '小米 手机 22 旗舰版',
+    name: '小米 22 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2891.63,
@@ -4025,7 +4025,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p19',
-    name: 'iPhone 手机 19 旗舰版',
+    name: 'iPhone 19 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8508.1,
@@ -4035,7 +4035,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p63',
-    name: '一加 手机 18 旗舰版',
+    name: '一加 18 旗舰版',
     brand: '一加',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5777.59,
@@ -4046,7 +4046,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p164',
-    name: '三星 手机 29 旗舰版',
+    name: '三星 29 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4470,
@@ -4057,7 +4057,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p238',
-    name: '荣耀 手机 13 旗舰版',
+    name: '荣耀 13 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6623.66,
@@ -4068,7 +4068,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p167',
-    name: '三星 手机 32 旗舰版',
+    name: '三星 32 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5938,
@@ -4078,7 +4078,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p154',
-    name: '三星 手机 19 旗舰版',
+    name: '三星 19 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 1325,
@@ -4089,7 +4089,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p400',
-    name: '小米 手机 40 旗舰版',
+    name: '小米 40 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 5871,
@@ -4100,7 +4100,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p257',
-    name: '荣耀 手机 32 旗舰版',
+    name: '荣耀 32 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5369.72,
@@ -4110,7 +4110,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p349',
-    name: '联想moto 手机 34 旗舰版',
+    name: '联想moto 34 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 5826,
@@ -4120,7 +4120,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p141',
-    name: '三星 手机 6 旗舰版',
+    name: '三星 6 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 3130.46,
@@ -4130,7 +4130,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p221',
-    name: '华为 手机 41 旗舰版',
+    name: '华为 41 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5620,
@@ -4141,7 +4141,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p296',
-    name: 'vivo 手机 26 旗舰版',
+    name: 'vivo 26 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3092.7,
@@ -4152,7 +4152,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p247',
-    name: '荣耀 手机 22 旗舰版',
+    name: '荣耀 22 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1385,
@@ -4163,7 +4163,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p195',
-    name: '华为 手机 15 旗舰版',
+    name: '华为 15 旗舰版',
     brand: '华为',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 2480.78,
@@ -4173,7 +4173,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p96',
-    name: 'iQOO 手机 6 旗舰版',
+    name: 'iQOO 6 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2663,
@@ -4183,7 +4183,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p367',
-    name: '小米 手机 7 旗舰版',
+    name: '小米 7 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 4063.38,
@@ -4194,7 +4194,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p335',
-    name: '联想moto 手机 20 旗舰版',
+    name: '联想moto 20 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 1644,
@@ -4205,7 +4205,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p117',
-    name: 'iQOO 手机 27 旗舰版',
+    name: 'iQOO 27 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 8991.91,
@@ -4215,7 +4215,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p230',
-    name: '荣耀 手机 5 旗舰版',
+    name: '荣耀 5 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6533.35,
@@ -4226,7 +4226,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p132',
-    name: 'iQOO 手机 42 旗舰版',
+    name: 'iQOO 42 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8522.14,
@@ -4237,7 +4237,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p267',
-    name: '荣耀 手机 42 旗舰版',
+    name: '荣耀 42 旗舰版',
     brand: '荣耀',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 4192.44,
@@ -4248,7 +4248,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p291',
-    name: 'vivo 手机 21 旗舰版',
+    name: 'vivo 21 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1390.85,
@@ -4259,7 +4259,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p319',
-    name: '联想moto 手机 4 旗舰版',
+    name: '联想moto 4 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8945.59,
@@ -4270,7 +4270,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p133',
-    name: 'iQOO 手机 43 旗舰版',
+    name: 'iQOO 43 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3778,
@@ -4280,7 +4280,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p126',
-    name: 'iQOO 手机 36 旗舰版',
+    name: 'iQOO 36 旗舰版',
     brand: 'iQOO',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 1402.82,
@@ -4290,7 +4290,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p391',
-    name: '小米 手机 31 旗舰版',
+    name: '小米 31 旗舰版',
     brand: '小米',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 5037,
@@ -4301,7 +4301,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p6',
-    name: 'iPhone 手机 6 旗舰版',
+    name: 'iPhone 6 旗舰版',
     brand: 'Apple',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 3968.31,
@@ -4312,7 +4312,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p153',
-    name: '三星 手机 18 旗舰版',
+    name: '三星 18 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 6716.77,
@@ -4322,7 +4322,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p272',
-    name: 'vivo 手机 2 旗舰版',
+    name: 'vivo 2 旗舰版',
     brand: 'vivo',
     imageUrl: '/src/assets/iphone-14-finish-select-202209-6-1inch-blue.jpg',
     price: 8610,
@@ -4332,7 +4332,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p163',
-    name: '三星 手机 28 旗舰版',
+    name: '三星 28 旗舰版',
     brand: '三星',
     imageUrl: '/src/assets/iphone-15-finish-select-202309-6-1inch-black.jpg',
     price: 2651.66,
@@ -4343,7 +4343,7 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'p360',
-    name: '联想moto 手机 45 旗舰版',
+    name: '联想moto 45 旗舰版',
     brand: '联想moto',
     imageUrl: '/src/assets/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium.jpg',
     price: 8646,

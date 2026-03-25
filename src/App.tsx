@@ -1,5 +1,10 @@
 /** @format */
-import { useState, useMemo, useEffect } from "react";
+import {
+  useState,
+  useMemo,
+  useEffect,
+  useCallback,
+} from "react";
 import {
   mockBrands,
   mockProducts,
@@ -9,6 +14,7 @@ import { Header } from "./components/Header";
 import { ContentLayout } from "./components/ContentLayout";
 import { Sidebar } from "./components/Sidebar";
 import { ProductCard } from "./components/ProductCard";
+import { useInfiniteScroll } from "./hooks/useInfiniteScroll";
 
 function App() {
   // 核心状态 1：当前选中的品牌 ID。null 代表全选
@@ -31,27 +37,85 @@ function App() {
     )?.name;
     if (!brandName) return mockProducts;
 
-    return mockProducts.filter(
-      (p) => p.brand === brandName,
+    // 通过商品名称筛选：特殊处理 Apple 对应 iPhone 的情况，其余直接使用品牌名进行模糊匹配
+    const searchKeyword =
+      brandName === "Apple" ? "iPhone" : brandName;
+
+    return mockProducts.filter((p) =>
+      p.name.includes(searchKeyword),
     );
   }, [currentBrandId]);
 
   // 分页相关常量
   const PAGE_SIZE = 8;
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
 
-  // 当过滤后的数据发生变化（如切换品牌）时，重置可见商品列表为第一页数据
+  // 衍生状态：是否还有更多数据
+  const hasMore =
+    visibleProducts.length < filteredProducts.length;
+
+  // 加载更多函数
+  const loadMore = useCallback(() => {
+    if (loading || !hasMore) return;
+    setLoading(true);
+    // 模拟网络请求延迟
+    setTimeout(() => {
+      setPage((prev) => prev + 1);
+      setLoading(false);
+    }, 500);
+  }, [loading, hasMore]);
+
+  const { loadMoreRef, scrollContainerRef, resetScroll } =
+    useInfiniteScroll({
+      onLoadMore: loadMore,
+      hasMore,
+      loading,
+      rootMargin: "200px",
+    });
+
+  // 当过滤后的数据发生变化（如切换品牌）时，重置分页并回到顶部
   useEffect(() => {
+    setPage(1);
     setVisibleProducts(
       filteredProducts.slice(0, PAGE_SIZE),
     );
-  }, [filteredProducts]);
+    resetScroll();
+  }, [filteredProducts, resetScroll]);
+
+  // 当页码增加时，追加数据
+  useEffect(() => {
+    if (page === 1) return;
+    const nextProducts = filteredProducts.slice(
+      0,
+      page * PAGE_SIZE,
+    );
+    setVisibleProducts(nextProducts);
+  }, [page, filteredProducts]);
 
   // 渲染商品列表
   const renderProductList = () => (
-    <div className="bg-white min-h-full">
+    <div
+      ref={scrollContainerRef}
+      className="bg-white min-h-full pb-4"
+    >
       {visibleProducts.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
+
+      {/* 底部加载指示器 / 触底元素 */}
+      <div
+        ref={loadMoreRef}
+        className="h-10 flex items-center justify-center text-gray-400 text-sm"
+      >
+        {loading ? (
+          <span>加载中...</span>
+        ) : hasMore ? (
+          <span>下拉加载更多</span>
+        ) : (
+          <span>没有更多商品了</span>
+        )}
+      </div>
     </div>
   );
 

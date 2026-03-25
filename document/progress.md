@@ -24,4 +24,10 @@
 - [x] 步骤 3.1：在根组件建立全局状态 (`currentBrandId` 和 `visibleProducts`)
 - [x] 步骤 3.2：实现品牌筛选联动 (通过 `useMemo` 计算 `filteredProducts`)
 - [x] 步骤 3.3：实现商品列表的初始分页渲染 (通过 `useEffect` 截取前 8 条数据)
-- [ ] 步骤 4.1：实现 IntersectionObserver 触底加载 (无限滚动)
+
+## 阶段 4：无限滚动与性能优化
+
+- [x] 步骤 4.1：实现 IntersectionObserver 触底加载 (无限滚动)
+  - 编写了 `useInfiniteScroll` 自定义 Hook 处理 IntersectionObserver 逻辑
+  - 在 App.tsx 中增加了分页状态 (`page`)、加载状态 (`loading`) 和是否还有更多数据的衍生状态 (`hasMore`)
+  - 列表底部增加了用于触发加载更多和展示状态的元素
