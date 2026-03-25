@@ -11,7 +11,7 @@ export function Header() {
   );
 
   return (
-    <header className="relative bg-white px-3 pt-3 pb-2 sticky top-0 z-50 overflow-hidden">
+    <header className="bg-white px-3 pt-3 pb-2 sticky top-0 z-50 overflow-hidden">
       {/* 左上角红色模糊渐变背景：稍微放大一点，并保持柔和过渡 */}
       <div className="absolute top-[-70px] left-[-40px] w-[210px] h-[140px] bg-red-100 rounded-full blur-3xl opacity-80 pointer-events-none z-0" />
 

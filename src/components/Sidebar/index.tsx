@@ -1,10 +1,7 @@
-import { cn } from '../../utils/cn';
+/** @format */
 
-// 假设传入的 Brand 数据结构
-interface Brand {
-  id: string;
-  name: string;
-}
+import { cn } from "../../utils/cn";
+import { type Brand } from "../../mocks/mockData";
 
 interface SidebarProps {
   brands: Brand[];
@@ -12,21 +9,25 @@ interface SidebarProps {
   onBrandSelect: (brandId: string) => void;
 }
 
-export function Sidebar({ brands, activeBrandId, onBrandSelect }: SidebarProps) {
+export function Sidebar({
+  brands,
+  activeBrandId,
+  onBrandSelect,
+}: SidebarProps) {
   return (
     <div className="flex flex-col w-full">
       {brands.map((brand) => {
         const isActive = activeBrandId === brand.id;
-        
+
         return (
           <button
             key={brand.id}
             onClick={() => onBrandSelect(brand.id)}
             className={cn(
-              'h-14 w-full flex items-center justify-center text-sm transition-colors relative',
+              "h-14 w-full flex items-center justify-center text-sm transition-colors relative",
               isActive
-                ? 'bg-white text-text-main font-bold'
-                : 'bg-transparent text-text-sub font-normal'
+                ? "bg-white text-text-main font-bold"
+                : "bg-transparent text-text-sub font-normal",
             )}
           >
             {brand.name}

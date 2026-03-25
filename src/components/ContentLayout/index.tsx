@@ -1,15 +1,20 @@
-import { ReactNode } from 'react';
+/** @format */
+
+import type { ReactNode } from "react";
 
 interface ContentLayoutProps {
   sidebar: ReactNode;
   content: ReactNode;
 }
 
-export function ContentLayout({ sidebar, content }: ContentLayoutProps) {
+export function ContentLayout({
+  sidebar,
+  content,
+}: ContentLayoutProps) {
   return (
     <div className="flex flex-1 overflow-hidden">
       {/* 左侧侧边栏区域：固定宽度，独立垂直滚动 */}
-      <aside className="w-[85px] bg-[#F5F5F5] overflow-y-auto no-scrollbar flex-shrink-0">
+      <aside className="w-[85px] bg-[#F5F5F5] overflow-y-auto no-scrollbar shrink-0">
         {sidebar}
       </aside>
 

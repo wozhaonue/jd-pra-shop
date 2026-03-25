@@ -10,6 +10,7 @@
   - `Header/`: 顶部导航与活动标签组件
   - `ContentLayout/`: 主体左右分栏布局容器组件
   - `Sidebar/`: 左侧品牌导航列表组件
+  - `ProductCard/`: 单个商品卡片组件
 - `hooks/`: 存放自定义 Hooks（如无限滚动）
 - `mocks/`: 存放本地模拟数据（`mockData.ts`, `headerData.ts`）
 - `types/`: 存放 TypeScript 接口定义

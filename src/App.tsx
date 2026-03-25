@@ -4,6 +4,7 @@ import { mockBrands, mockProducts } from "./mocks/mockData";
 import { Header } from "./components/Header";
 import { ContentLayout } from "./components/ContentLayout";
 import { Sidebar } from "./components/Sidebar";
+import { ProductCard } from "./components/ProductCard";
 
 function App() {
   // 临时状态：当前选中的品牌 ID
@@ -11,15 +12,11 @@ function App() {
     string | null
   >(null);
 
-  const renderContentPlaceholder = () => (
-    <div className="p-3">
-      {Array.from({ length: 20 }).map((_, i) => (
-        <div
-          key={i}
-          className="h-32 mb-3 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400"
-        >
-          商品卡片占位 {i + 1}
-        </div>
+  // 渲染商品列表 (临时直接渲染全部 mockProducts，不加过滤和分页)
+  const renderProductList = () => (
+    <div className="p-2 bg-bg-page min-h-full">
+      {mockProducts.map((product) => (
+        <ProductCard key={product.id} product={product} />
       ))}
     </div>
   );
@@ -38,7 +35,7 @@ function App() {
             onBrandSelect={setCurrentBrandId}
           />
         }
-        content={renderContentPlaceholder()}
+        content={renderProductList()}
       />
     </div>
   );
