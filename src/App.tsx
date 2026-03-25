@@ -1,26 +1,15 @@
 /** @format */
-
+import { useState } from "react";
 import { mockBrands, mockProducts } from "./mocks/mockData";
 import { Header } from "./components/Header";
 import { ContentLayout } from "./components/ContentLayout";
+import { Sidebar } from "./components/Sidebar";
 
 function App() {
-  console.log("加载到的品牌数据:", mockBrands);
-  console.log("加载到的商品数据:", mockProducts);
-
-  // 临时构造侧边栏和内容区的占位数据以验证滚动
-  const renderSidebarPlaceholder = () => (
-    <div className="py-2">
-      {Array.from({ length: 30 }).map((_, i) => (
-        <div
-          key={i}
-          className="h-12 flex items-center justify-center text-sm text-text-sub border-b border-gray-200"
-        >
-          品牌 {i + 1}
-        </div>
-      ))}
-    </div>
-  );
+  // 临时状态：当前选中的品牌 ID
+  const [currentBrandId, setCurrentBrandId] = useState<
+    string | null
+  >(null);
 
   const renderContentPlaceholder = () => (
     <div className="p-3">
@@ -42,7 +31,13 @@ function App() {
 
       {/* 主体左右分栏布局 */}
       <ContentLayout
-        sidebar={renderSidebarPlaceholder()}
+        sidebar={
+          <Sidebar
+            brands={mockBrands}
+            activeBrandId={currentBrandId}
+            onBrandSelect={setCurrentBrandId}
+          />
+        }
         content={renderContentPlaceholder()}
       />
     </div>
