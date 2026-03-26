@@ -25,7 +25,7 @@
 - [x] 步骤 3.2：实现品牌筛选联动 (通过 `useMemo` 计算 `filteredProducts`)
 - [x] 步骤 3.3：实现商品列表的初始分页渲染 (通过 `useEffect` 截取前 8 条数据)
 
-## 阶段 4：无限滚动与性能优化
+## 阶段 4：交互功能增强
 
 - [x] 步骤 4.1：实现 IntersectionObserver 触底加载 (无限滚动)
   - 编写了 `useInfiniteScroll` 自定义 Hook 处理 IntersectionObserver 逻辑
@@ -34,6 +34,9 @@
 - [x] 步骤 4.2：修复无限滚动与筛选的边界问题
   - 修复 `useInfiniteScroll` 中因依赖项变化导致 observer 重新创建并立即触发加载的问题（引入 `useRef` 缓存最新状态）
   - 修复 `App.tsx` 中切换品牌时因 `useEffect` 状态竞态导致渲染出过多商品的问题（重构 `visibleProducts` 为衍生状态，移除多余的副作用）
+- [x] 步骤 4.3：实现回到顶部功能 (BackToTop)
+  - 创建了 `BackToTop` 悬浮按钮组件，监听实际滚动容器（`ContentLayout` 的 `main`）的滚动事件
+  - 滚动超过半屏时显示按钮，点击平滑滚动至顶部
 
 ## 阶段 5：高级筛选功能
 
@@ -42,9 +45,9 @@
   - 修改 `App.tsx` 中的 `filteredProducts` 衍生状态，新增通过 `featureTags` 进行标签筛选的逻辑
   - 实现了基于活动标签（如国家补贴、百亿补贴等）和品牌（如 Apple、华为等）的组合筛选，且筛选后能够自动重置分页和滚动位置
 
-## 阶段 5：高级筛选功能
+## 阶段 6：最终清理与审查
 
-- [x] 步骤 5.1：实现活动标签与品牌的双层筛选
-  - 将 Header 的 `activeTagId` 状态提升至根组件 `App.tsx`，通过 Props 传递给 `Header`
-  - 修改 `App.tsx` 中的 `filteredProducts` 衍生状态，新增通过 `featureTags` 进行标签筛选的逻辑
-  - 实现了基于活动标签（如国家补贴、百亿补贴等）和品牌（如 Apple、华为等）的组合筛选，且筛选后能够自动重置分页和滚动位置
+- [x] 步骤 6.1：代码审查与冗余清理
+  - 检查移除了所有测试用 `console.log`，解决 Linter 报错
+  - 验证 TypeScript 类型严格匹配 (`npm run build` 和 `tsc --noEmit` 均 0 报错)
+  - 补充修复了 Tailwind v4 类名过时警告

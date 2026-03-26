@@ -11,6 +11,7 @@
   - `ContentLayout/`: 主体左右分栏布局容器组件
   - `Sidebar/`: 左侧品牌导航列表组件
   - `ProductCard/`: 单个商品卡片组件
+  - `BackToTop/`: 回到顶部悬浮按钮组件
 - `hooks/`: 存放自定义 Hooks
   - `useInfiniteScroll.ts`: 封装基于 IntersectionObserver 的无限滚动触底加载逻辑（通过 useRef 缓存闭包状态，保证 observer 稳定不重复创建）
 - `mocks/`: 存放本地模拟数据（`mockData.ts`, `headerData.ts`）

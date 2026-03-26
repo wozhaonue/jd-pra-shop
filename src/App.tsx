@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import { ContentLayout } from "./components/ContentLayout";
 import { Sidebar } from "./components/Sidebar";
 import { ProductCard } from "./components/ProductCard";
+import { BackToTop } from "./components/BackToTop";
 import { useInfiniteScroll } from "./hooks/useInfiniteScroll";
 import { activityTags } from "./mocks/headerData";
 
@@ -127,6 +128,9 @@ function App() {
           <span>没有更多商品了</span>
         )}
       </div>
+
+      {/* 回到顶部悬浮按钮 */}
+      <BackToTop targetRef={scrollContainerRef} />
     </div>
   );
 
