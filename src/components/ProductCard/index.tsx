@@ -39,7 +39,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <div>
           {/* 标题与自营标签 */}
           <h3 className="text-[15px] font-bold text-text-main leading-snug truncate">
-            <span className="inline-block bg-brand-red text-white text-[10px] px-1 py-0.5 rounded-[2px] mr-1 font-bold leading-none align-middle relative -top-[1px]">
+            <span className="inline-block bg-brand-red text-white text-[10px] px-1 py-0.5 rounded-[2px] mr-1 font-bold leading-none align-middle relative -top-px">
               自营
             </span>
             {product.name}
@@ -91,7 +91,7 @@ export function ProductCard({ product }: ProductCardProps) {
           <div className="relative flex items-stretch shrink-0">
             {/* 补缝底色：连接箭头和按钮的渐变背景 */}
             <div
-              className="absolute left-0 top-0 bottom-0 w-[30px] bg-gradient-to-b from-[#FF5A5A] to-[#FF2A2A] z-0"
+              className="absolute left-0 top-0 bottom-0 w-[30px] bg-linear-to-b from-[#FF5A5A] to-[#FF2A2A] z-0"
               style={{
                 clipPath:
                   "polygon(20px 0, 100% 0, 100% 100%, 0 100%)",
@@ -100,7 +100,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
             {/* 独立绘制的左倾向下粗箭头 */}
             <div
-              className="w-[28px] h-full bg-gradient-to-b from-[#ffbbbb] to-[#f73f3f] relative z-10"
+              className="w-[28px] h-full bg-linear-to-b from-[#ffbbbb] to-[#f73f3f] relative z-10"
               style={{
                 clipPath:
                   "polygon(65% 0%, 95% 0%, 65% 50%, 90% 50%, 0% 100%, 10% 50%, 35% 50%)",
@@ -108,7 +108,7 @@ export function ProductCard({ product }: ProductCardProps) {
             />
 
             {/* 按钮主体 */}
-            <button className="bg-gradient-to-b from-[#FF5A5A] to-[#FF2A2A] text-white pl-1 pr-3.5 flex items-center justify-center font-bold text-[15px] relative z-10">
+            <button className="bg-linear-to-b from-[#FF5A5A] to-[#FF2A2A] text-white pl-1 pr-3.5 flex items-center justify-center font-bold text-[15px] relative z-10">
               抢
             </button>
           </div>

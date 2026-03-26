@@ -1,15 +1,6 @@
 /** @format */
-import {
-  useState,
-  useMemo,
-  useEffect,
-  useCallback,
-} from "react";
-import {
-  mockBrands,
-  mockProducts,
-  type Product,
-} from "./mocks/mockData";
+import { useState, useMemo, useCallback } from "react";
+import { mockBrands, mockProducts } from "./mocks/mockData";
 import { Header } from "./components/Header";
 import { ContentLayout } from "./components/ContentLayout";
 import { Sidebar } from "./components/Sidebar";
@@ -93,11 +84,25 @@ function App() {
       rootMargin: "200px",
     });
 
-  // 当过滤后的数据发生变化（如切换品牌）时，重置分页并回到顶部
-  useEffect(() => {
-    setPage(1);
-    resetScroll();
-  }, [filteredProducts, resetScroll]);
+  // 处理标签切换
+  const handleTagSelect = useCallback(
+    (tagId: string) => {
+      setActiveTagId(tagId);
+      setPage(1);
+      resetScroll();
+    },
+    [resetScroll],
+  );
+
+  // 处理品牌切换
+  const handleBrandSelect = useCallback(
+    (brandId: string | null) => {
+      setCurrentBrandId(brandId);
+      setPage(1);
+      resetScroll();
+    },
+    [resetScroll],
+  );
 
   // 渲染商品列表
   const renderProductList = () => (
@@ -130,7 +135,7 @@ function App() {
       {/* 顶部组件 */}
       <Header
         activeTagId={activeTagId}
-        onTagSelect={setActiveTagId}
+        onTagSelect={handleTagSelect}
       />
 
       {/* 主体左右分栏布局 */}
@@ -139,7 +144,7 @@ function App() {
           <Sidebar
             brands={mockBrands}
             activeBrandId={currentBrandId}
-            onBrandSelect={setCurrentBrandId}
+            onBrandSelect={handleBrandSelect}
           />
         }
         content={renderProductList()}
